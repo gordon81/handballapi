@@ -1,0 +1,6 @@
+#!/bin/bash
+## Description: Run symfony Console (symfony) command inside the web container
+## Usage: symfony [args]
+## Example: "ddev symfony cache:flush"
+
+symfony "$@"

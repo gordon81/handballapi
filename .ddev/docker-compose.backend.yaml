@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  web:
+    ports:
+      - "3001:3001"
+    environment:
+      - PHP_IDE_CONFIG=serverName=handballapi.ddev.site
